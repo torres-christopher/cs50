@@ -1,0 +1,958 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" e-locale="cs-CZ" e-is-multilanguage="false">
+<head>
+<title>Title goes here</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1, user-scalable=yes">
+<!--[if !mso]><!--><meta http-equiv="X-UA-Compatible" content="IE=edge"><!--<![endif]-->
+<!--[if (gte mso 9)]>
+<style type="text/css">
+body {margin:0; padding:0; background:#ffffff;}
+table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; border:0;}
+table td, table th {border-collapse:collapse; font-size:1px; line-height:1px;}
+.inpl-not-mailing table {border-collapse:separate;}
+li {text-indent: -1em;}
+font .ffgeo {font-family: Georgia, serif !important;}
+font .ff {font-family: Tahoma, Arial, Helvetica, sans-serif !important;}
+.lh {line-height:100% !important;}
+.lh13p {line-height:108% !important;}
+.lh14p {line-height:117% !important;}
+.lh15p {line-height:125% !important;}
+.lh16p {line-height:133% !important;}
+.lh17p {line-height:142% !important;}
+.lh18p {line-height:150% !important;}
+.lh19p {line-height:158% !important;}
+.lh20p {line-height:167% !important;}
+.inpl-not-mailing .lh, .inpl-not-mailing .lh font {line-height:1.2 !important;}
+.inpl-not-mailing .lh13p, .inpl-not-mailing .lh13p font {line-height:1.3 !important;}
+.inpl-not-mailing .lh14p, .inpl-not-mailing .lh14p font {line-height:1.4 !important;}
+.inpl-not-mailing .lh15p, .inpl-not-mailing .lh15p font {line-height:1.5 !important;}
+.inpl-not-mailing .lh16p, .inpl-not-mailing .lh16p font {line-height:1.6 !important;}
+.inpl-not-mailing .lh17p, .inpl-not-mailing .lh17p font {line-height:1.7 !important;}
+.inpl-not-mailing .lh18p, .inpl-not-mailing .lh18p font {line-height:1.8 !important;}
+.inpl-not-mailing .lh19p, .inpl-not-mailing .lh19p font {line-height:1.9 !important;}
+.inpl-not-mailing .lh20p, .inpl-not-mailing .lh20p font {line-height:2 !important;}
+</style>
+<![endif]-->
+<!--[if (gte mso 9)|(IE)]>
+<style type="text/css">
+.ol620 {width:620px;}
+.ol630 {width:630px;}
+.cta1a {padding:0 !important;}
+.lhp1 {line-height:100% !important;}
+.inpl-not-mailing .lhp1 {line-height:1.2 !important; padding:0 !important;}
+.inpl-not-mailing .cta1a {padding:5px !important;}
+.cta-loy {line-height:100% !important;}
+.inpl-not-mailing .cta-loy {line-height:1.2 !important;}
+</style>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<style>@font-face {
+font-family:"clarendon-text-pro";
+font-style:normal;
+font-stretch:normal;
+src: url("https://use.typekit.net/af/9aa147/00000000000000007735a52b/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/9aa147/00000000000000007735a52b/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/9aa147/00000000000000007735a52b/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+}
+@font-face {
+font-family:"brandon-grotesque";
+font-style:normal;
+font-weight:400;
+font-stretch:normal;
+src:url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+}
+.ff {font-family:'brandon-grotesque';}
+.ff .txtbrk {-moz-hyphens: auto;hyphens: auto;}
+.ffgeo {font-family:clarendon-text-pro, Georgia, Times, sans-serif;}
+.fs10 {font-size:10px;}
+.fs12 {font-size:12px;}
+.fs14 {font-size:14px;}
+.fs16 {font-size:16px;}
+.fs22 {font-size:22px;}
+.fs26 {font-size:26px;}
+.fs30 {font-size:30px;}
+.fs40 {font-size:40px;}
+.lh, .lh font {line-height:1.2;}
+.lh13p, .lh13p font {line-height:1.3;}
+.lh14p, .lh14p font {line-height:1.4;}
+.lh15p, .lh15p font {line-height:1.5;}
+.lh16p, .lh16p font {line-height:1.6;}
+.lh17p, .lh17p font {line-height:1.7;}
+.lh18p, .lh18p font {line-height:1.8;}
+.lh19p, .lh19p font {line-height:1.9;}
+.lh20p, .lh20p font {line-height:2;}
+.fc1 {color:#333333;}
+.fc2 {color:#333333;}
+.fc3 {color:#ffffff;}
+.fc4 {color:#333333;}
+.fc5 {color:#333333;}
+.fcov {color:#333333;}
+.fc-copy {color:#333333;}
+.fc-sub {color:#333333;font-weight:bold;}
+.fc-hl {color:#333333;font-weight:bold;}
+.fc-price {color:#333333;}
+.fc-strike {color:;}
+.tdn {text-decoration:none;}
+.tdu {text-decoration:underline;}
+.tds, .tds span {text-decoration:line-through;}
+.fwn {font-weight:normal;}
+.fwb {font-weight:bold;}
+.vab {vertical-align:bottom;}
+.vat {vertical-align:top;}
+.vam {vertical-align:middle;}
+.la1 font a {font-weight:normal; text-decoration:none; color:#8c8c8c;}
+.la1s font a {font-weight:normal; text-decoration:line-through; color:#8c8c8c;}
+.la1a font a {font-weight:normal; text-decoration:underline; color:#333333;}
+.la2 font a {font-weight:bold; text-decoration:none; color:#333333;}
+.la2a font a {font-weight:bold; text-decoration:none; color:#e5bf31;}
+.la3 font a {font-weight:normal; text-decoration:none; color:#ffffff;}
+.la3a font a {font-weight:normal; text-decoration:underline; color:#333333;}
+.nlink {color:#333333; font-weight:normal; text-decoration:none;}
+.nlinkfb {font-family:'brandon-grotesque'; font-size:14px; color:#c1a129; font-weight:bold; text-decoration:none;}
+.nlinkf {font-family:'brandon-grotesque'; font-size:14px; color:#333333; font-weight:normal; text-decoration:none;}
+.tlink {color:#333333; font-weight:normal; text-decoration:none;}
+.tlinkf {font-family:'brandon-grotesque'; font-size:14px; color:#333333; font-weight:bold; text-decoration:none;}
+.tlinkf2 {font-family:'brandon-grotesque'; font-size:12px; color:#333333; font-weight:normal; text-decoration:underline;}
+.tcta1a {border:1px solid #333333; border-collapse:separate; border-radius:0px; -webkit-border-radius:0px; -moz-border-radius:0px;}
+.lhp1, .lhp1 font {line-height:1.2;}
+.cta1a {font-size:14px; color:#ffffff; font-weight:normal; text-decoration:none; display:block;}
+.ctaf {font-family:clarendon-text-pro, Georgia, Times, sans-serif; font-size:14px; color:#ffffff; font-weight:normal;}
+.cta-loy {line-height:1.2;}
+.cta-loy a {font-size:14px; color:#ffffff; font-weight:normal; text-decoration:none; display:block;}
+.ctaf-loy {font-family:'brandon-grotesque'; font-size:14px; color:#ffffff; font-weight:normal;}
+@media only screen and (max-width:414px) {
+.fl {display:block !important; width:100% !important;}
+.fw {width:100% !important; min-width:0 !important;}
+.sec {width:100% !important; float:none !important;}
+.mtal {text-align:left !important;}
+.mh {display:none !important;}
+.mis_80 {width: 80px !important;}
+.mis_145 {width: 145px !important;}
+.mis_150 {width: 150px !important;}
+.mis_287 {width: 287px !important;}
+.mbs_145_40 {background-size:145px 40px !important}
+.mbs_287_40 {background-size:287px 40px !important}
+.mheight_25 {height:25px !important;}
+.mheight_100 {height:30px !important;}
+.mheight_130 {height:20px !important;}
+.mheight_160 {height:30px !important;}
+.image {width:100% !important; height:auto !important;}
+.image50 {width:50% !important; height:auto !important;}
+.image150px {width:150px !important;}
+.image170px {width:170px !important;}
+.comt {margin:0 auto !important;}
+.rw33p {width:33.33% !important;}
+.rw40p {width:40% !important;}
+.rw50p {width:50% !important;}
+.rw60p {width:60% !important;}
+.xsmall {font-size:11px !important;}
+.small {font-size:13px !important;}
+.gf {font-size:15px !important;}
+.h3 {font-size:17px !important;}
+.s1, .s1 div {height:20px !important;}
+.s4, .s4 div {height:40px !important;}
+.rwom {width:auto !important;}
+.rhom {height:auto !important;}
+.rh10, .rh10 div {height:10px !important;}
+.rhflexih {height:5px !important;}
+.rhflexcol {height:20px !important;}
+.rhflexbcta {height:20px !important;}
+.rw8 {width:8px !important;}
+.rw20 {width:20px !important;}
+.pl5 {padding-left:5px !important;}
+.pr5 {padding-right:5px !important;}
+.plr2 {padding:0 2px !important;}
+.plr10 {padding:0 10px !important}
+.cta1a {font-size:15px !important;}
+.ctaf {font-size:15px !important;}
+.ctaf-loy, .cta-loy a {font-size:15px !important;}
+.bgm {background-size:cover; background-position:center center;}
+.mvab {vertical-align:bottom !important;}
+}
+
+.salutation-first-line.one-line{
+font-size: 22px;
+font-family:clarendon-text-pro, Georgia, Times, sans-serif;
+color:#333333;
+font-weight:bold;
+}
+.salutation-second-line.one-line{
+display:none;
+}
+
+.salutation-first-line.two-lines{
+font-size: 14px;
+font-family:'brandon-grotesque';
+color:#333333;
+font-weight:bold;
+}
+.salutation-second-line.two-lines{
+font-size: 22px;
+font-family:clarendon-text-pro, Georgia, Times, sans-serif;
+color:#333333;
+font-weight:bold;
+}
+@media only screen {body {margin:0; padding:0; background:#ffffff;}}
+a, a:active, a:visited, .yshortcuts, .yshortcuts span a {text-decoration:none; font-weight:bold; color:#8c8c8c;}
+a[x-apple-data-detectors] {color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important;}
+[office365] td div, [office365] button {display:block !important;}
+table th {padding:0; Margin:0; border:0; font-weight:normal; vertical-align:top;}
+th a, th a:link, th a:visited {background:transparent; padding:0;}</style>
+<style type="text/css">
+[class~="x_olf"] td, [class~="x_olf"] th {font-size:1px;}
+</style>
+<style type="text/css">
+@media only screen and (max-width: 414px) {
+.gf {font-size:4.17vw !important;}
+.h3 {font-size:4.72vw !important;}
+.small {font-size:3.61vw !important;}
+.xsmall {font-size:3.06vw !important;}
+.cta1a, .cta-loy a {font-size:4.17vw !important;}
+.ctaf, .ctaf-loy {font-size:4.17vw !important;}
+u + .body .gwfw {width:100% !important; width:100vw !important;}
+}
+</style>
+<style type="text/css">
+@media only screen and (max-width: 414px) {
+.vce-hide-on-mobile { display: none !important; max-height: 0 !important; }
+.vce-image { width: 100% !important; height: auto !important; }
+}
+</style></head>
+<body class="body"><div ems:preheader style="display:none!important;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all">Tipy na šťavnaté ovocné čaje a recepty na dobroty z plodů divoké přírody, které vám dodají energii pro nadcházející podzim.</div>
+<table cellspacing="0" cellpadding="0" width="100%" height="100%" style="min-width:100%;" bgcolor="#ffffff" class="gwfw olf">
+<tr>
+<td width="100%" align="center" style="vertical-align:top;">
+<table cellspacing="0" cellpadding="0" width="630" class="ol630 fw">
+<tr>
+<td style="padding:0 5px;" class="iph">
+<table cellpadding="0" cellspacing="0" width="620" bgcolor="#ffffff" class="ol620 fw">
+<tr class="mh">
+<td height="5"></td>
+</tr>
+<tr class="vce-hide-on-mobile" e-block-id="5be2cf826dd4f959f1000002">
+<td bgcolor="#ffffff">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td style="padding:0 10px;">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="20"></td>
+<td width="150" align="right" class="lh vat" style="line-height: 1.2; vertical-align: top;" valign="top"><a e-editable="urlA_1" href="https://link.sonnentor.cz/u/gm.php?prm=cFPn1JVDda_1023826870_626753_28089&_esuh=_11_7330e6651dc8c3c9ef52dd42594c4c9708d3152d99818688ea3a85943d7b923a" target="_blank" class="fwn tdn fcov" title="View online" style="color: #333333; text-decoration: none; font-weight: normal;">
+<font e-editable="link_textA_1" class="ff fcov fs10 tdn xsmall" style="font-family: 'brandon-grotesque'; font-size: 10px; color: #333333; text-decoration: none; line-height: 1.2;">
+Online verze
+</font>
+</a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr e-block-id="62f9e6a6bcd86bfe6e000002">
+<td bgcolor="#ffffff">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="center"><a title="Dárkování" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_1&ems_l=721339&i=1&d=NjM5NDE4OTA%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_235c424b61082af8d9ce8218680eca187e5bb823495f032780872c945a7e7a82" style="text-decoration: none; font-weight: bold; color: #8c8c8c;" target="_blank"><img e-editable="imageA_1" src="https://link.sonnentor.cz/custloads/1023826870/md_213503.jpg" width="620" border="0" style="display: block; width: 620px;" alt="Dárkování" class="image"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr e-block-id="62ced53937463a6fd7000002">
+<td align="center" bgcolor="#ffffff">
+<a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_3&ems_l=721339&i=1&d=NjM5NDE4OTI%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_6b18776786ea5dc4e48f523eafc696ef18733237c146abadb12c7b99021afda8" target="_blank" title="home page" e-editable="image_urlA_1" style="text-decoration: none; font-weight: bold; color: #8c8c8c;"><img src="https://link.sonnentor.cz/custloads/1023826870/md_125844.jpg" width="620" alt="logo" border="0" class="image" style="display: block; max-width: 620px; width: 620px;" e-editable="imageA_1"></a>
+</td>
+</tr>
+<tr e-block-id="634968b06f847d78e3000008">
+<td bgcolor="#ffffff">
+<table cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="center" style="padding:0 10px;">
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td align="center" class="lh vat" style="line-height: 1.2; vertical-align: top;" valign="top"><a e-editable="urlA_1" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_5&ems_l=721339&i=1&d=NjM5NDE4OTQ%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_daa5d9fb7967a70db6b13c438b4742df3236b6406ce6cf2c8e20c7268f486e8e" target="_blank" class="nlink" title="Onlineshop" style="color: #333333; font-weight: normal; text-decoration: none;"><font e-editable="link_textA_1" class="nlinkf small" style="font-family: 'brandon-grotesque'; font-size: 14px; color: #333333; font-weight: normal; text-decoration: none; line-height: 1.2;">E-shop</font></a></td>
+<td width="32" class="rw20"></td>
+<td align="center" class="lh vat" style="line-height: 1.2; vertical-align: top;" valign="top"><a e-editable="urlA_2" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_7&ems_l=721339&i=1&d=NjM5NDE4OTY%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_779d97e6bf76070408c8c92687ef35205f4e718c37c034fe360d0732731ff129" target="_blank" class="nlink" title="Recepty" style="color: #333333; font-weight: normal; text-decoration: none;"><font e-editable="link_textA_2" class="nlinkf small" style="font-family: 'brandon-grotesque'; font-size: 14px; color: #333333; font-weight: normal; text-decoration: none; line-height: 1.2;">Recepty</font></a></td>
+<td width="32" class="rw20"></td>
+<td align="center" class="lh vat" style="line-height: 1.2; vertical-align: top;" valign="top"><a e-editable="urlA_3" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_9&ems_l=721339&i=1&d=NjM5NDE4OTg%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_ccf3c8fd84fa3beefd66d0b1621d8f35ed32929f5b884bc9d8aa33b6024e9a32" target="_blank" class="nlink" title="Prodejny" style="color: #333333; font-weight: normal; text-decoration: none;"><font e-editable="link_textA_3" class="nlinkf small" style="font-family: 'brandon-grotesque'; font-size: 14px; color: #333333; font-weight: normal; text-decoration: none; line-height: 1.2;">Prodejny</font></a></td>
+<td width="32" class="rw20"></td>
+<td align="center" class="lh vat" style="line-height: 1.2; vertical-align: top;" valign="top"><a e-editable="urlA_4" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_11&ems_l=721339&i=1&d=NjM5NDE5MDA%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_a1409bbd9d72449788658ee3195ae27281f32c3662708298f6fa9ff9618d2dec" target="_blank" class="nlink" title="Navštivte nás" style="color: #333333; font-weight: normal; text-decoration: none;"><font e-editable="link_textA_4" class="nlinkf small" style="font-family: 'brandon-grotesque'; font-size: 14px; color: #333333; font-weight: normal; text-decoration: none; line-height: 1.2;">Navštivte nás</font></a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+</table>
+</td>
+</tr><!--  -->
+<!--  -->
+<tr e-repeatable-item e-block-id="5bd1bbb554d026f87c000004">
+<td bgcolor="#ffffff">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="center"><a title="Ovocné čaje" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_15&ems_l=721339&i=1&d=NjM5NDE5MDQ%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_426e7998d3678f4361b425993949c9e097295dc91861b58fcef1ccd8bc8757e0" style="text-decoration: none; font-weight: bold; color: #8c8c8c;" target="_blank"><img e-editable="imageA_1" src="https://link.sonnentor.cz/custloads/1023826870/md_212651.gif" alt="Ovocné čaje" border="0" width="620" class="image" style="display: block; width: 620px;"></a></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+<tr>
+<td style="padding:0 10px;">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="center" class="lh la1a" style="line-height: 1.2;"><font e-editable="textC_1" class="ff fs16 fc-copy gf" style="font-family: 'brandon-grotesque'; font-size: 16px; color: #333333; line-height: 1.2;">Nedáte na ovocné čaje dopustit? Jako všechny naše ingredience, i&nbsp;ovoce v&nbsp;našich čajích je&nbsp;100%&nbsp;bio –&nbsp;pochází tedy&nbsp;výhradně z&nbsp;ekologického zemědělství. Jsme totiž přesvědčení, že čistá přírodní chuť kvalitního ovoce už nepotřebuje žádné „zlepšováky“ v&nbsp;podobě umělých aromat, barviv a&nbsp;podobně. Nechte se okouzlit našimi šťavnatými tipy a&nbsp;recepty!</font></td>
+</tr>
+<tr>
+<td height="20"></td>
+</tr>
+<td align="center">
+<table cellpadding="0" cellspacing="0" class="tctala fw" style="height:40px;v-text-anchor:middle;width:287px;background:#000000">
+<tr>
+<td height="30" align="center" class="lhpl vam" style="vertical-align: middle;" valign="middle"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_13&ems_l=721339&i=1&d=NjM5NDE5MDI%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_a23d6dc570e4bb1820659c41891f23b8f6f60a439645ee41cdbe26bc5c1ed1b3" e-editable="urlA_1" target="_blank" style="text-decoration: none; padding: 5px; color: #ffffff; font-weight: normal;" title="Ovocné čaje"><font e-editable="link_textA_1" class="ctaf" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 14px; color: #ffffff; font-weight: normal;">Ochutnám ovocné potěšení</font></a></td>
+</tr>
+</table>
+</td>
+<tr>
+<td height="20"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr><tr e-block-id="634963af6f847d78e3000002">
+<td bgcolor="#ffffff">
+<table cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="305" align="center" class="vat rw50p pl5" style="vertical-align: top;" valign="top"><a title="Kontryhel" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_19&ems_l=721339&i=1&d=NjM5NDE5MDg%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_cbd7a0c03862eea175518b32d1561f4a3d2be14dcb642e2e4d37613285342af5" style="text-decoration: none; font-weight: bold; color: #8c8c8c;" target="_blank"><img e-editable="imageA_2" src="https://link.sonnentor.cz/custloads/1023826870/md_213518.png" width="305" border="0" alt="Kontryhel" style="display: block; width: 305px;" class="image"></a></td>
+<th align="“right“" class="fl vat" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top">
+<table cellpadding="0" cellspacing="0" width="305" class="fw">
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td height="100" class="mheight_100"></td>
+</tr>
+<tr>
+<td align="left" class="lh la1" style="line-height: 1.2;"><font e-editable="textA_1" class="ff fs14 fc-sub fwn small" style="font-family: 'brandon-grotesque'; font-size: 14px; color: #333333; font-weight: normal; line-height: 1.2;">Alchemilla vulgaris</font></td>
+</tr>
+<tr>
+<td align="left" class="lh la2" style="line-height: 1.2;"><font e-editable="textB_1" class="ffgeo fs22 fc-hl fwb h3" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 22px; color: #333333; font-weight: bold; line-height: 1.2;"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_17&ems_l=721339&i=1&d=NjM5NDE5MDY%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_f8866dd1667395520c10a483ba0bc327a3cb6e2c99aee19b1ad4d4ff240d67a6" style="background: transparent; padding: 0; font-weight: bold; text-decoration: none; color: #333333;" target="_blank">Kontryhel</a></font></td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="left" class="lh la1a" style="line-height: 1.2;"><font e-editable="textC_1" class="ff fs16 fc-copy fwn gf" style="font-family: 'brandon-grotesque'; font-size: 16px; color: #333333; font-weight: normal; line-height: 1.2;">Kontryhel, jehož zázračných účinků zejména na zdraví ženy si cenila už ve středověku učenkyně Hildegarda z&nbsp;Bingenu, si nyní našel cestu do našich šálků i&nbsp;v&nbsp;porcované formě.</font></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+<tr>
+<td align="left"><a title="Kontryhel" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_21&ems_l=721339&i=1&d=NjM5NDE5MTA%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_68ff7f8d521f07826a0310ed21576b7745ce470bcbbd64fb3e87c5b5f723f4e8" style="text-decoration: none; font-weight: bold; color: #8c8c8c; background: transparent; padding: 0;" target="_blank"><img e-editable="ImageA_1" class="mis_80" src="https://link.sonnentor.at/custloads/1022682803/00_System/style-Elemente/pfeile/pfeile6.png" width="130" border="0" alt="Čas na perníček" style="display: block; width: 130px;"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr><tr e-block-id="634963ac6f847d78e3000001">
+<td bgcolor="#ffffff">
+<table cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<th align="right" class="fl vat" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top">
+<table cellpadding="0" cellspacing="0" width="305" class="fw">
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td height="100" class="mheight_100"></td>
+</tr>
+<tr>
+<td align="right" class="lh la1" style="line-height: 1.2;"><font e-editable="textA_1" class="ff fs14 fc-sub fwn small" style="font-family: 'brandon-grotesque'; font-size: 14px; color: #333333; font-weight: normal; line-height: 1.2;">Bylinný čaj bio</font></td>
+</tr>
+<tr>
+<td align="right" class="lh la2" style="line-height: 1.2;"><a href style="text-decoration: none; color: #8c8c8c; background: transparent; padding: 0; font-weight: bold;" target="_blank"><font e-editable="textB_1" class="ffgeo fs22 fc-hl fwb h3" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 22px; color: #333333; font-weight: bold; line-height: 1.2;"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_23&ems_l=721339&i=1&d=NjM5NDE5MTI%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_29d4cb9712310b13f50088fabc9ba2db1a76d1cab679944b0a84616f06e3d467" style="background: transparent; padding: 0; font-weight: bold; text-decoration: none; color: #333333;" target="_blank">Mátové trio</a></font></a></td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="right" class="lh la1a" style="line-height: 1.2;"><font e-editable="textC_1" class="ff fs16 fc-copy fwn gf" style="font-family: 'brandon-grotesque'; font-size: 16px; color: #333333; font-weight: normal; line-height: 1.2;">Toužíte po opravdovém osvěžení? Seznamte se s&nbsp;tímto&nbsp;novým znamenitým triem máty peprné, čokoládové a&nbsp;kadeřavé. Rozehraje ve vašem šálku symfonii svěžích chutí a&nbsp;vůní!</font></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+<tr>
+<td align="right"><a title="Mátové trio" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_25&ems_l=721339&i=1&d=NjM5NDE5MTQ%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_1575e503a3855b394d78472baf6e7c74bb8042a2e4eaf0d7823cb5df0834c7ca" style="text-decoration: none; font-weight: bold; color: #8c8c8c; background: transparent; padding: 0;" target="_blank"><img e-editable="ImageA_1" class="mis_80" src="https://link.sonnentor.at/custloads/1022682803/00_System/style-Elemente/pfeile/pfeile5.png" width="130" border="0" alt="First column image" style="display:block;"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+<td width="305" align="center" class="vat rw50p pl5" style="vertical-align: top;" valign="top"><a title="Mátové trio" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_27&ems_l=721339&i=1&d=NjM5NDE5MTY%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_d4703cc2b55c562a1664d8a51350160154907ee94bb300fceedab17084d58ef7" style="text-decoration: none; font-weight: bold; color: #8c8c8c;" target="_blank"><img e-editable="imageA_2" src="https://link.sonnentor.cz/custloads/1023826870/md_213519.png" width="305" border="0" alt="Mátové trio" style="display: block; width: 305px;" class="image"></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr><!--  -->
+<!--  -->
+<tr e-block-id="634964926f847d78e3000003">
+<td bgcolor="#ffffff">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<th align="left" class="fl vat" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top">
+<table cellpadding="0" cellspacing="0" width="305" class="fw">
+<tr>
+<td align="center"><a title="Cibule sušená" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_37&ems_l=721339&i=1&d=NjM5NDE5MjY%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_849e3572673a0aa675ed4aa152cddacffef6c17ba0162dbe7d691b02dc3a72e7" style="text-decoration: none; font-weight: bold; color: #8c8c8c; background: transparent; padding: 0;" target="_blank"><img e-editable="ImageA_1" src="https://link.sonnentor.cz/custloads/1023826870/md_213517.png" width="305" border="0" alt="Cibule sušená" style="display: block; width: 305px;" class="image170px"></a></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+<tr>
+<td style="padding:0 10px;">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="left" class="txtbrk lh la2" style="line-height: 1.2;"><font e-editable="textB_1" class="txtbrk ffgeo fs22 fc-hl fwb h3" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 22px; color: #333333; font-weight: bold; line-height: 1.2;"><span class="selectionWrapper"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_33&ems_l=721339&i=1&d=NjM5NDE5MjI%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_e3e3bcfc2524b820d17d840a30e2c30fd102840756b35f8714262b53e8ec9cb4" style="background: transparent; padding: 0; font-weight: bold; text-decoration: none; color: #333333;" target="_blank">Cibule sušená</a></span></font></td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="left" class="txtbrk lh la1a" style="line-height: 1.2;"><font e-editable="textC_1" class="txtbrk ff fs16 fc-copy fwn gf" style="font-family: 'brandon-grotesque'; font-size: 16px; color: #333333; font-weight: normal; line-height: 1.2;">Z krájení cibule se často stane slzavá záležitost. Ale s tím je konec! Se sušenou cibulkou se můžete rovnou pustit do kuchtění. Perfektní pro ty, kteří chtějí vařit zdravě a&nbsp;zároveň šetřit čas (i&nbsp;slzy).</font></td>
+</tr>
+<tr>
+<td height="20"></td>
+</tr>
+<tr>
+<td align="left">
+<table cellpadding="0" cellspacing="0" class="tctala fw" style="height:40px;v-text-anchor:middle;width:287px;background:#000000">
+<tr>
+<td height="30" align="center" class="lhpl vam" style="vertical-align: middle;" valign="middle"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_29&ems_l=721339&i=1&d=NjM5NDE5MTg%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_d3d3a17ac40329059a7463142387afb7e3bec3a2e20fbe80ffbe2566b32a30e1" e-editable="urlA_1" target="_blank" style="text-decoration: none; background: transparent; padding: 5px; color: #ffffff; font-weight: normal;" title="Cibule sušená"><font e-editable="link_textA_1" class="ctaf" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 14px; color: #ffffff; font-weight: normal;">Dám sbohem cibulovým slzám</font></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+<th width="10" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"></th>
+<th align="left" class="vat" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top">
+<table cellpadding="0" cellspacing="0" width="305" class="fw">
+<tr>
+<td align="center"><a title="Tonkové boby mleté" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_39&ems_l=721339&i=1&d=NjM5NDE5Mjg%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_00d53af01c5cd9a864789a988f1ef9cb9b01a772212153a62e892e31eabea97b" style="text-decoration: none; font-weight: bold; color: #8c8c8c; background: transparent; padding: 0;" target="_blank"><img e-editable="imageA_2" src="https://link.sonnentor.cz/custloads/1023826870/md_213515.png" width="305" border="0" class="image170px" alt="Tonkové boby" style="display: block; width: 305px;"></a></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+<tr>
+<td style="padding:0 10px;">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="left" class="txtbrk lh la2" style="line-height: 1.2;"><font e-editable="textB_2" class="txtbrk ffgeo fs22 fc-hl fwb h3" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 22px; color: #333333; font-weight: bold; line-height: 1.2;"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_35&ems_l=721339&i=1&d=NjM5NDE5MjQ%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_69355d744c3f6c12d392e0746c9498e7b585ee5a8c58a61aa5d78626d5b98466" style="background: transparent; padding: 0; font-weight: bold; text-decoration: none; color: #333333;" target="_blank">Tonkové boby</a></font></td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="left" class="txtbrk lh la1a" style="line-height: 1.2;"><font e-editable="textC_2" class="txtbrk ff fs16 fc-copy fwn gf" style="font-family: 'brandon-grotesque'; font-size: 16px; color: #333333; font-weight: normal; line-height: 1.2;">Tonkovým bobům se přezdívá také mexická vanilka a&nbsp;není divu. Jejich lákavé aroma skvěle doladí nejrůznější dezerty. Pro snadnější použití jsme celé boby nahradili mletou variantou.</font></td>
+</tr>
+<tr>
+<td height="20"></td>
+</tr>
+<tr>
+<td align="left">
+<table cellpadding="0" cellspacing="0" class="tctala fw" style="height:40px;v-text-anchor:middle;width:287px;background:#000000">
+<tr>
+<td height="30" align="center" class="lhpl vam" style="vertical-align: middle;" valign="middle"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_31&ems_l=721339&i=1&d=NjM5NDE5MjA%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_dfca5f6e220e19b2f9075fe218b546f836a7f6852426cdd571b00ab762716998" e-editable="urlA_2" target="_blank" style="text-decoration: none; background: transparent; padding: 5px; color: #ffffff; font-weight: normal;" title="Tonkové boby mleté"><font e-editable="link_textA_2" class="ctaf" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 14px; color: #ffffff; font-weight: normal;">Ochutnám kouzelné fazolky</font></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="20"></td>
+</tr>
+</table>
+</td>
+</tr><tr e-block-id="6303315ce758e70785000002">
+<td height="20" bgcolor="#ffffff"></td>
+</tr><tr e-block-id="6386584c0d7d659d5a000001">
+<td bgcolor="#ffffff">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="center"><img e-editable="imageA_1" src="https://link.sonnentor.at/custloads/1022682803/md_51481.png" width="620" border="0" style="display: block; width: 620px;" alt="Banner" class="image"></td>
+</tr>
+</table>
+</td>
+</tr><tr e-block-id="638659160d7d659d5a000004">
+<td height="20" bgcolor="#ffffff"></td>
+</tr><!--  -->
+<!--  -->
+<tr e-repeatable-item e-block-id="62ece5b73ff177c43f000001">
+<td bgcolor="#ffffff">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" width="100%" dir="ltr" style="direction:ltr">
+<tr>
+<th width="1" align="left" class="vat fl" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"><a title="Hříbkové rizoto" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_45&ems_l=721339&i=1&d=NjM5NDE5MzQ%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_ead82cc406e1991fe02bc710543acc78058f924b82fdfe8e665134a2a7767469" style="text-decoration: none; font-weight: bold; color: #8c8c8c; background: transparent; padding: 0;" target="_blank"><img e-editable="imageA_1" src="https://link.sonnentor.cz/custloads/1023826870/md_213568.png" width="305" border="0" class="image" alt="Hříbkové rizoto" style="display: block; width: 305px;"></a></th>
+<th width="10" class="fl rhflexih" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"><div></div></th>
+<th align="left" class="vat fl" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td style="padding:0 10px;">
+<table cellpadding="0" cellspacing="0" width="100%" dir="ltr" style="direction:ltr;">
+<tr class="mh">
+<td height="100"></td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="left" class="lh la1" style="line-height: 1.2;"><font e-editable="textA_1" class="ff fs14 fc-sub small" style="font-family: 'brandon-grotesque'; font-size: 14px; color: #333333; font-weight: bold; line-height: 1.2;">Recept</font></td>
+</tr>
+<tr>
+<td align="left" class="lh la2" style="line-height: 1.2;"><font e-editable="textB_1" class="ffgeo fs22 fc-hl h3" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 22px; font-weight: bold; line-height: 1.2; color: #e5bf31;"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_43&ems_l=721339&i=1&d=NjM5NDE5MzI%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_c94e5a1d7f1faf702d6491a8ecc15baf9823467a961dc61f4a63694738fc9606" style="background: transparent; padding: 0; font-weight: bold; text-decoration: none; color: #333333;" target="_blank">Krémové rizoto s&nbsp;hříbkovou omáčkou</a></font></td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="left" class="lh la1a" style="line-height: 1.2;"><font e-editable="textC_1" class="ff fs16 fc-copy gf" style="font-family: 'brandon-grotesque'; font-size: 16px; color: #333333; line-height: 1.2;">Poštěstilo se vám a našli jste v lese hříbky? Připravte si z&nbsp;nich&nbsp;výtečné rizoto!<br>‎</font></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+<tr>
+<td align="left">
+<table cellpadding="0" cellspacing="0" class="tctala fw" style="height:40px;v-text-anchor:middle;width:287px;background:#000000">
+<tr>
+<td height="30" align="center" class="lhpl vam" style="vertical-align: middle;" valign="middle"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_41&ems_l=721339&i=1&d=NjM5NDE5MzA%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_266717ee316cf440ab6283315c18825ddacf8e05a6cf608229df776bf82fde0d" e-editable="urlA_1" target="_blank" style="text-decoration: none; background: transparent; padding: 5px; color: #ffffff; font-weight: normal;" title="Hříbkové rizoto"><font e-editable="link_textA_1" class="ctaf" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 14px; color: #ffffff; font-weight: normal;">Připravím si houbovou dobrůtku</font></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="20"></td>
+</tr>
+</table>
+</td>
+</tr><!--  -->
+<!--  -->
+<tr e-repeatable-item e-block-id="62f2220cf62df4c0aa000001">
+<td bgcolor="#ffffff">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" width="100%" dir="rtl" style="direction:rtl;">
+<tr>
+<th width="1" align="left" class="vat fl" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"><a title="Mrkvový dortík" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_51&ems_l=721339&i=1&d=NjM5NDE5NDA%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_3ab62fcfce4657a23e05d138c636cf33a65391b991ba39670dda7130cffe9dce" style="text-decoration: none; font-weight: bold; color: #8c8c8c; background: transparent; padding: 0;" target="_blank"><img e-editable="imageA_1" src="https://link.sonnentor.cz/custloads/1023826870/md_213597.png" width="305" border="0" class="image" alt="Mrkvový dort" style="display: block; width: 305px;"></a></th>
+<th width="10" class="fl rhflexih" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"><div></div></th>
+<th align="left" class="vat fl" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top">
+<table cellpadding="0" cellspacing="0" width="100%" dir="ltr" style="direction:ltr;">
+<tr>
+<td style="padding:0 10px;">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr class="mh">
+<td height="100"></td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="right" class="lh la1 mtal" style="line-height: 1.2;"><font e-editable="textA_1" class="ff fs14 fc-sub small" style="font-family: 'brandon-grotesque'; font-size: 14px; color: #333333; font-weight: bold; line-height: 1.2;">Recept</font></td>
+</tr>
+<tr>
+<td align="right" class="lh la2 mtal" style="line-height: 1.2;"><font e-editable="textB_1" class="ffgeo fs22 fc-hl h3" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 22px; font-weight: bold; line-height: 1.2; color: #e5bf31;"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_49&ems_l=721339&i=1&d=NjM5NDE5Mzg%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_a11bed90d554df8d2da7a5b21ce1d0ac6e3c6687228938f8b1111645dcedc330" style="background: transparent; padding: 0; font-weight: bold; text-decoration: none; color: #333333;" target="_blank">Mrkvový dortík bez cukru</a></font></td>
+</tr>
+<tr>
+<td height="right"></td>
+</tr>
+<tr>
+<td align="right" class="lh la1a mtal" style="line-height: 1.2;"><font e-editable="textC_1" class="ff fs16 fc-copy gf" style="font-family: 'brandon-grotesque'; font-size: 16px; color: #333333; line-height: 1.2;">Tento vláčný a voňavý „mrkváček“ bez přidaného cukru potěší váš jazýček ke snídani i&nbsp;kdykoliv během dne ke svačince.<br>‎&nbsp;<br></font></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+<tr>
+<td align="left">
+<table cellpadding="0" cellspacing="0" class="tctala fw" style="height:40px;v-text-anchor:middle;width:287px;background:#000000">
+<tr>
+<td height="30" align="center" class="lhpl vam" style="vertical-align: middle;" valign="middle"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_47&ems_l=721339&i=1&d=NjM5NDE5MzY%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_0f42a695f5482f18a3436737d49ae50d8856631e867e93633d76de6fb167b8ba" e-editable="urlA_1" target="_blank" style="text-decoration: none; background: transparent; padding: 5px; color: #ffffff; font-weight: normal;" title="Mrkvový dortík"><font e-editable="link_textA_1" class="ctaf" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 14px; color: #ffffff; font-weight: normal;">Ochutnám voňavé potěšení</font></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="20"></td>
+</tr>
+</table>
+</td>
+</tr><tr e-block-id="638658640d7d659d5a000002">
+<td height="20" bgcolor="#ffffff"></td>
+</tr><tr e-block-id="64db6a4c599e391d07000001">
+<td bgcolor="#ffffff">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="center"><img e-editable="imageA_1" src="https://link.sonnentor.at/custloads/1022682803/md_51480.png" width="620" border="0" style="display: block; width: 620px;" alt="Banner" class="image"></td>
+</tr>
+</table>
+</td>
+</tr><tr e-block-id="63865af5ef7b40f1e1000001">
+<td height="20" bgcolor="#ffffff"></td>
+</tr><!--  -->
+<!--  -->
+<tr e-repeatable-item e-block-id="646df4129d34c3191c000003">
+<td bgcolor="#ffffff">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<th width="1" align="left" class="vat fl" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"><a title="Exkurze s ochutnávkou" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_57&ems_l=721339&i=1&d=NjM5NDE5NDY%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_38b576ba23abf06d4fcfcd70b2d5538b2508389cf118979eeb42d70cbbd514ad" style="text-decoration: none; font-weight: bold; color: #8c8c8c; background: transparent; padding: 0;" target="_blank"><img e-editable="imageA_1" src="https://link.sonnentor.cz/custloads/1023826870/md_206542.jpg" width="305" border="0" class="image" alt="Exkurze s ochutnávkou" style="display: block; width: 305px;"></a></th>
+<th width="10" class="fl rhflexih" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"><div></div></th>
+<th align="left" class="vat fl" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td style="padding:0 10px;">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td height="20"></td>
+</tr>
+<tr>
+<td align="left" class="lh la1" style="line-height: 1.2;"><font e-editable="textA_1" class="ff fs14 fc-sub small" style="font-family: 'brandon-grotesque'; font-size: 14px; color: #333333; font-weight: bold; line-height: 1.2;">Ze života v Bylinkovém ráji</font></td>
+</tr>
+<tr>
+<td align="left" class="lh la2" style="line-height: 1.2;"><font e-editable="textB_1" class="ffgeo fs22 fc-hl h3" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 22px; color: #333333; font-weight: bold; line-height: 1.2;"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_55&ems_l=721339&i=1&d=NjM5NDE5NDQ%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_2e8a3e0b16dfef1f3ac6f7fffdeffb8990a5d8b102b66645eba36d9dfc6b2809" style="background: transparent; padding: 0; font-weight: bold; text-decoration: none; color: #333333;" target="_blank">Okoštujte SONNENTOR</a></font></td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="left" class="lh la1a" style="line-height: 1.2;"><font e-editable="textC_1" class="ff fs16 fc-copy gf" style="font-family: 'brandon-grotesque'; font-size: 16px; color: #333333; line-height: 1.2;">Rádi byste ochutnali trochu více ze SONNENTORU? Navštivte naši krásnou prohlídku ve výrobě a&nbsp;okořeňte si návštěvu ochutnávkou něčeho dobrého z&nbsp;našeho sortimentu. <br>‎</font></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+<tr>
+<td align="left">
+<table cellpadding="0" cellspacing="0" class="tctala fw" style="height:40px;v-text-anchor:middle;width:287px;background:#000000">
+<tr>
+<td height="30" align="center" class="lhpl vam" style="vertical-align: middle;" valign="middle"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_53&ems_l=721339&i=1&d=NjM5NDE5NDI%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_0950d8e392f2eb818cf30b4c34bfd21b2debcea6ec4bba8e9895292e8bd4c2a5" e-editable="urlA_1" target="_blank" style="text-decoration: none; background: transparent; padding: 5px; color: #ffffff; font-weight: normal;" title="Exkurze s ochutnávkou"><font e-editable="link_textA_1" class="ctaf" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 14px; color: #ffffff; font-weight: normal;">Naservíruju si prohlídku s ochutnávkou</font></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="20"></td>
+</tr>
+</table>
+</td>
+</tr><tr e-block-id="646df4759d34c3191c000004">
+<td height="20" bgcolor="#ffffff"></td>
+</tr><!--  -->
+<!--  -->
+<tr e-repeatable-item e-block-id="646df4bc9d34c3191c000005">
+<td bgcolor="#ffffff">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" width="100%" dir="rtl" style="direction:rtl;">
+<tr>
+<th width="1" align="left" class="vat fl" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top">
+<table cellpadding="0" cellspacing="0" width="100%" dir="ltr" style="direction:ltr;">
+<tr>
+<td align="right"><a title="Exkurze s odborníkem" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_63&ems_l=721339&i=1&d=NjM5NDE5NTI%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_1199102bf9035d6f94632ce9de30cd92773e6c4ebd8900af3cff647c943b3475" style="text-decoration: none; font-weight: bold; color: #8c8c8c; background: transparent; padding: 0;" target="_blank"><img e-editable="imageA_1" src="https://link.sonnentor.cz/custloads/1023826870/md_206541.jpg" width="305" border="0" class="image" alt="Exkurze s odborníkem" style="display: block; width: 305px;"></a></td>
+</tr>
+</table>
+</th>
+<th width="10" class="fl rhflexih" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"><div></div></th>
+<th align="left" class="vat fl" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="10"></td>
+<td>
+<table cellpadding="0" cellspacing="0" width="100%" dir="ltr" style="direction:ltr;">
+<tr>
+<td height="20"></td>
+</tr>
+<tr>
+<td align="left" class="lh la1" style="line-height: 1.2;"><font e-editable="textA_1" class="ff fs14 fc-sub small" style="font-family: 'brandon-grotesque'; font-size: 14px; color: #333333; font-weight: bold; line-height: 1.2;">Ze života v Bylinkovém ráji</font></td>
+</tr>
+<tr>
+<td align="left" class="lh la2" style="line-height: 1.2;"><font e-editable="textB_1" class="ffgeo fs22 fc-hl h3" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 22px; color: #333333; font-weight: bold; line-height: 1.2;"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_61&ems_l=721339&i=1&d=NjM5NDE5NTA%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_4d7ffb660fb13cce5e702fa528f4f353e51eeba451563e6c35c5ff5d033fb3eb" style="background: transparent; padding: 0; font-weight: bold; text-decoration: none; color: #333333;" target="_blank">Exkurze se „slunečníkem“</a></font></td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="left" class="lh la1a" style="line-height: 1.2;"><font e-editable="textC_1" class="ff fs16 fc-copy gf" style="font-family: 'brandon-grotesque'; font-size: 16px; color: #333333; line-height: 1.2;">Co se skrývá pod naším heslem „podnikáme jinak“? Není to jen o&nbsp;bio surovinách, ale i&nbsp;o&nbsp;dalších důležitých aspektech udržitelnosti. Máme více než třicetileté zkušenosti a&nbsp;nebojíme se je sdílet.<br>‎</font></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+<tr>
+<td align="left">
+<table cellpadding="0" cellspacing="0" class="tctala fw" style="height:40px;v-text-anchor:middle;width:287px;background:#000000">
+<tr>
+<td height="30" align="center" class="lhpl vam" style="vertical-align: middle;" valign="middle"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_59&ems_l=721339&i=1&d=NjM5NDE5NDg%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_59f34f15a3087e007fc49b9efcbd1709d967d6c0ca704db34b07d78e6f030a72" e-editable="urlA_1" target="_blank" style="text-decoration: none; background: transparent; padding: 5px; color: #ffffff; font-weight: normal;" title="Exkurze s odborníkem"><font e-editable="link_textA_1" class="ctaf" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 14px; color: #ffffff; font-weight: normal;">Nechám se inspirovat odborníky</font></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td width="10"></td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="20"></td>
+</tr>
+</table>
+</td>
+</tr><tr e-block-id="638659230d7d659d5a000005">
+<td height="20" bgcolor="#ffffff"></td>
+</tr><tr e-block-id="64db6a84599e391d07000003">
+<td height="20" bgcolor="#ffffff"></td>
+</tr><tr e-block-id="63865a1c0d7d659d5a000006">
+<td bgcolor="#ffffff">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="center"><a title="Divoké plody přírody" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_65&ems_l=721339&i=1&d=NjM5NDE5NTQ%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_ef7b3a5a1bf8ee92330ad66e79a48da2d0242438b0bfb52fd9c864c45056a017" style="text-decoration: none; font-weight: bold; color: #8c8c8c;" target="_blank"><img e-editable="imageA_1" src="https://link.sonnentor.cz/custloads/1023826870/md_214283.jpg" width="620" border="0" style="display: block; width: 620px;" alt="Divoké plody" class="image"></a></td>
+</tr>
+</table>
+</td>
+</tr><!--  -->
+<!--  -->
+<tr e-repeatable-item e-block-id="63865b3bef7b40f1e1000002">
+<td bgcolor="#ffffff">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" width="100%" dir="rtl" style="direction:rtl;">
+<tr>
+<th align="left" class="vat fl" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="10"></td>
+<td>
+<table cellpadding="0" cellspacing="0" width="100%" dir="ltr" style="direction:ltr;">
+<tr>
+<td height="20"></td>
+</tr>
+<tr>
+<td align="center" class="lh la2" style="line-height: 1.2;"><font e-editable="textB_1" class="ffgeo fs22 fc-hl h3" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 22px; color: #333333; font-weight: bold; line-height: 1.2;"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_69&ems_l=721339&i=1&d=NjM5NDE5NTg%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_03f635b8f4822da9d768a5efb25463c90dd372a8b1e8032128ca0450c42b5a45" style="background: transparent; padding: 0; font-weight: bold; text-decoration: none; color: #333333;" target="_blank">Načerpejte sílu z divokých plodů</a></font></td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td align="center" class="lh la1a" style="line-height: 1.2;"><font e-editable="textC_1" class="ff fs16 fc-copy gf" style="font-family: 'brandon-grotesque'; font-size: 16px; color: #333333; line-height: 1.2;"><span>Na podzim je příroda okolo nás plná vitamínových bomb. Borůvky, šípky,&nbsp;bezinky&nbsp;či rakytník jsou jen malá část přírodních pomocníků, které v&nbsp;tomto období vaše okolí nabízí. Máme pro vás několik tipů, jak si je nebesky vychutnat!<br><br></span></font></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+<tr>
+<td align="center">
+<table cellpadding="0" cellspacing="0" class="tctala fw" style="height:40px;v-text-anchor:middle;width:287px;background:#000000">
+<tr>
+<td height="30" align="center" class="lhpl vam" style="vertical-align: middle;" valign="middle"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_67&ems_l=721339&i=1&d=NjM5NDE5NTY%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_c09431081fec30f190b451035fb95b21fefe5262bc931fbafd3ad979c02d04dc" e-editable="urlA_1" target="_blank" style="text-decoration: none; background: transparent; padding: 5px; color: #ffffff; font-weight: normal;" title="Divoké plody přírody"><font e-editable="link_textA_1" class="ctaf" style="font-family: clarendon-text-pro, Georgia, Times, sans-serif; font-size: 14px; color: #ffffff; font-weight: normal;">Posilním se před příchodem podzimu</font></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td width="10"></td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="20"></td>
+</tr>
+</table>
+</td>
+</tr><tr e-block-id="638663b92a13b2a5f4000002">
+<td height="20" bgcolor="#ffffff"></td>
+</tr><tr e-block-id="638663b12a13b2a5f4000001">
+<td height="20" bgcolor="#ffffff"></td>
+</tr><!--  -->
+<!--  -->
+<tr e-block-id="630330cfe758e70785000001">
+<td bgcolor="#ffffff">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="center">
+<table width="610" cellpadding="0" cellspacing="0" class="fw">
+<tr>
+<th align="left" class="vat" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top">
+<table cellpadding="0" cellspacing="0" width="190" class="fw">
+<tr>
+<td align="center"><a title="Instagram příspěvek" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_71&ems_l=721339&i=1&d=NjM5NDE5NjA%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_5ff4b8836ddd78a57b09c100a21964ea5dbb4fdc5bb6b4f1edd72a2e5ab39a4d" style="text-decoration: none; font-weight: bold; color: #8c8c8c; background: transparent; padding: 0;" target="_blank"><img e-editable="imageA_1" src="https://link.sonnentor.cz/custloads/1023826870/md_214491.jpg" width="190" class="image" border="0" alt="Instagram příspěvek" style="display: block; width: 190px;"></a></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+</table>
+</th>
+<th width="20" class="rhflexcol" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"></th>
+<th align="left" class="vat" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top">
+<table cellpadding="0" cellspacing="0" width="190" class="fw">
+<tr>
+<td align="center"><a title="Instagram příspěvek" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_73&ems_l=721339&i=1&d=NjM5NDE5NjI%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_a725c7f3fa83460c2e43051d3b48f00be6f55627464f2d519b71a5b738599b49" style="text-decoration: none; font-weight: bold; color: #8c8c8c; background: transparent; padding: 0;" target="_blank"><img e-editable="imageA_2" src="https://link.sonnentor.cz/custloads/1023826870/md_214493.jpg" width="190" class="image" border="0" alt="Instagram příspěvek" style="display: block; width: 190px;"></a></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+</table>
+</th>
+<th width="20" class="rhflexcol" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"></th>
+<th align="left" class="vat" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top">
+<table cellpadding="0" cellspacing="0" width="190" class="fw">
+<tr>
+<td align="center"><a title="Instagram příspěvek" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_75&ems_l=721339&i=1&d=NjM5NDE5NjQ%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_9cb4aba16cb8c92e920877bcd535f2154877ea3d0c10b4cca770af832bc610b6" style="text-decoration: none; font-weight: bold; color: #8c8c8c; background: transparent; padding: 0;" target="_blank"><img e-editable="imageA_3" src="https://link.sonnentor.cz/custloads/1023826870/md_214492.jpg" width="190" class="image" border="0" alt="Instagram příspěvek" style="display: block; width: 190px;"></a></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</td></tr><tr>
+<td align="center"><a title="Instagram link" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_77&ems_l=721339&i=1&d=NjM5NDE5NjY%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_da08448974e7a90736c08e1102866ae83b4f893e8f362a05d32577eafb379e78" style="text-decoration: none; font-weight: bold; color: #8c8c8c;" target="_blank"><img e-editable="imageA_4" src="https://link.sonnentor.at/custloads/1022682803/md_51017.png" width="610" border="0" class="image" alt="First column image" style="display: block; width: 610px;"></a></td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+</table></td>
+</tr>
+<tr e-block-id="6304d35cdfe3dfb5f6000001">
+<td align="center"><a e-editable="image_urlA_1" title="Go to Website" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_79&ems_l=721339&i=1&d=NjM5NDE5Njg%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_12719215aff2b2800d6558c075169f95541d9413e6d3db98c27a013563798e1c" target="_blank" style="text-decoration: none; font-weight: bold; color: #8c8c8c;"><img e-editable="imageA_1" src="https://link.sonnentor.at/custloads/1022682803/md_51575.png" width="630" border="0" style="display:block;" alt="Banner" class="image"></a></td>
+</tr>
+<tr e-block-id="6304d35cdfe3dfb5f6000001">
+<td bgcolor="#f9b400">
+<table cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td height="20"></td>
+</tr> <tr>
+<td align="center" style="padding:0 10px;">
+<table cellpadding="0" cellspacing="0">
+<tr>
+<th align="center" class="vat" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"><a e-editable="image_urlA_1" title="Facebook icon" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_81&ems_l=721339&i=1&d=NjM5NDE5NzA%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_1a9e9e663415833b0b571f3489fa00f991ed101f6296481078910bf720314cf1" target="_blank" style="text-decoration: none; font-weight: bold; color: #8c8c8c; background: transparent; padding: 0;"><img e-editable="imageA_1" src="https://link.sonnentor.at/custloads/1022682803/md_17496.png" width="13" border="0" style="display:block;" alt="Facebook icon"></a></th> <th width="55" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"></th>
+<th align="center" class="vat" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"><a e-editable="image_urlA_2" title="Instagram icon" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_83&ems_l=721339&i=1&d=NjM5NDE5NzI%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_c89b707fce9204b7e2b7421fe4ae469cd91e9072c5fe6c78520ec49efa5fcc03" target="_blank" style="text-decoration: none; font-weight: bold; color: #8c8c8c; background: transparent; padding: 0;"><img e-editable="imageA_2" src="https://link.sonnentor.at/custloads/1022682803/md_17497.png" width="24" border="0" style="display:block;" alt="Instagram icon"></a></th>
+<th width="55" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"></th>
+<th align="center" class="vat" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"><a e-editable="image_urlA_3" title="Instagram icon" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_85&ems_l=721339&i=1&d=NjM5NDE5NzQ%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_21683d5006424c8f37e17cbf8e00abfb62983b1d9bb210c0e335669337830c5e" target="_blank" style="text-decoration: none; font-weight: bold; color: #8c8c8c; background: transparent; padding: 0;"><img e-editable="imageA_3" src="https://link.sonnentor.at/custloads/1022682803/md_17533.png" width="24" border="0" style="display:block;" alt="Pinterest icon"></a></th>
+<th width="55" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"></th>
+<th align="center" class="vat" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"><a e-editable="image_urlA_4" title="LinkedIn icon" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_87&ems_l=721339&i=1&d=NjM5NDE5NzY%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_e9b2dccc09f5268d1a65f843d9971db3a719c3b450fe62f095b02be1c5eeae15" target="_blank" style="text-decoration: none; font-weight: bold; color: #8c8c8c; background: transparent; padding: 0;"><img e-editable="imageA_4" src="https://link.sonnentor.at/custloads/1022682803/md_51501.png" width="22" border="0" style="display:block;" alt="LinkedIn icon"></a></th>
+<th width="55" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"></th>
+<th align="center" class="vat" style="padding: 0; Margin: 0; border: 0; font-weight: normal; vertical-align: top;" valign="top"><a e-editable="image_urlA_5" title="YouTube icon" href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_89&ems_l=721339&i=1&d=NjM5NDE5Nzg%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_f078faed46d6e7ec38abf645b6e0a57b2c04ae8c9b0249d87d32d89b24c55e90" target="_blank" style="text-decoration: none; font-weight: bold; color: #8c8c8c; background: transparent; padding: 0;"><img e-editable="imageA_5" src="https://link.sonnentor.at/custloads/1022682803/md_17511.png" width="30" border="0" style="display:block;" alt="YouTube icon"></a></th>
+</tr></table>
+</td>
+</tr>
+<tr>
+<td height="20"></td>
+</tr>
+</table>
+</td>
+</tr><tr e-block-id="62c6834fd04e698787000001">
+<td bgcolor="#ffffff" style="padding:10px;">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="center" class="lh la1a" style="line-height: 1.2;"><font e-editable="textC_1" class="ff fs12 fc5 gf xsmall" style="font-family: 'brandon-grotesque'; font-size: 12px; color: #333333; line-height: 1.2;"><a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_91&ems_l=721339&i=1&d=NjM5NDE5ODA%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_88a7f75b6791ba77c99be2cfd0132311d50ca16eb3d6e60c074b6bdf09823a6a" target="_blank" style="font-weight: normal; color: #333333; text-decoration: underline;" rel="noopener"><span color="#1d1d1b" style="color: #1d1d1b;">Změnit mé údaje</span></a> | <a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_93&ems_l=721339&i=1&d=NjM5NDE5ODI%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_f3bde5b810e2b03234d975aa6566580fcf17da1578a937de6b226ef6a2059dfd" target="_blank" style="font-weight: normal; color: #333333; text-decoration: underline;" rel="noopener"><span color="#1d1d1b" style="color: #1d1d1b;">Impressum</span></a> | <a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_95&ems_l=721339&i=1&d=NjM5NDE5ODQ%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_58df138faf2ffab78024bce5af59dc0edfc87e935bc1bacee053b09237400c3f" target="_blank" style="font-weight: normal; color: #333333; text-decoration: underline;" rel="noopener"><span color="#1d1d1b" style="color: #1d1d1b;">Ochrana dat</span></a> | <a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_97&ems_l=721339&i=1&d=NjM5NDE5ODY%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_c9d0468949cf3500744cba6a043251c8268be844f7a4a04bfc04af45a67420e6" target="_blank" style="font-weight: normal; color: #333333; text-decoration: underline;" rel="noopener"><span color="#1d1d1b" style="color: #1d1d1b;">VOP</span></a> <br><br>SONNENTOR s.r.o. | Příhon 943, 696 15 Čejkovice, Česká republika<br>+420 518 362 687 | <a href="mailto:sonnentor@sonnentor.cz" target="_blank" style="font-weight: normal; color: #333333; text-decoration: underline;" rel="noopener"><span color="#1d1d1b" style="color: #1d1d1b;">sonnentor@sonnentor.cz</span></a> | <a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_99&ems_l=721339&i=1&d=NjM5NDE5ODg%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_d32ae8443fd6e1d853f8b3112cb9cf35bfd4e3afc2148cbee687a8b5b597be44" target="_blank" style="font-weight: normal; color: #333333; text-decoration: underline;" rel="noopener"><span color="#1d1d1b" style="color: #1d1d1b;">Web</span></a> | <a href="https://link.sonnentor.cz/u/nrd.php?p=cFPn1JVDda_28089_626753_1_101&ems_l=721339&i=1&d=NjM5NDE5OTA%3D%7CY0ZQbjFKVkRkYQ%3D%3D%7CYThkOGUwNjRhZjc5NmEwZTE%3D%7C&_esuh=_11_4cd85ed2df0fd0d7d339ce955f03b07da143abf62806d285b02b38c7cae4cfcf" target="_blank" style="font-weight: normal; color: #333333; text-decoration: underline;" rel="noopener"><span color="#1d1d1b" style="color: #1d1d1b;">Zákaznický účet</span></a></font></td>
+</tr>
+<tr>
+</tr><tr>
+<td height="20"></td>
+</tr>
+<td align="center" class="lh" style="line-height: 1.2;">
+<!--  -->
+<a e-editable="urlA_1" href="https://www.sonnentor.com/cs-cz/newsletter/unsubscribe?t=V1pSOFNkTnNrWHhkWU1LcWE4eDZwdjBtWmpSYWlBbEtsa3BKN3UwL08wY2dNbUNzTXBmdEJVR3ZSWVBONmRpY0VDeW9rN2VSQUE9PQ== &ems_dl=1023826870_cFPn1JVDda_28089_626753_1_2000000" title="Odhlásit newsletter" target="_blank" class="tlink" style="color: #333333; font-weight: normal; text-decoration: none;"><font e-editable="link_textA_1" class="tlinkf2 xsmall" style="font-family: 'brandon-grotesque'; font-size: 12px; color: #333333; font-weight: normal; text-decoration: underline; line-height: 1.2;">Odhlásit newsletter</font></a> <!--  -->
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div style="display:none; white-space:nowrap; font:15px courier; line-height:0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+<img src="https://link.sonnentor.cz/mo/cFPn1JVDda_1023826870_626753_28089_721339.gif" height="2" width="2" border="0" alt=""></body>
+</html>
